@@ -1,4 +1,3 @@
-package com.company;
 import java.util.Scanner;
 
 public class Car {
@@ -7,17 +6,27 @@ public class Car {
         double speed;
         int regularPrice;
         String color;
-        System.out.println("enter option \n 1:Truck  2:car ");
         Scanner sc = new Scanner(System.in);
-        int N = sc.nextInt();
+        speed = sc.nextInt();
+        System.out.println("enter option \n 1:Truck  2:car ");
+        Scanner sc1 = new Scanner(System.in);
+        int N = sc1.nextInt();
+        
+        Scanner sc3 = new Scanner(System.in);
+         regularPrice = sc3.nextInt();
         if(N==1)
         {
             System.out.println("enter the weight of the truck ");
-            Scanner sc1 = new Scanner(System.in);
-            int X = sc1.nextInt();
+            Scanner sc2 = new Scanner(System.in);
+            int X = sc2.nextInt();
+            t = GetSaleprice();
             if(X>2300)
             {
-                
+               System.out.println((*9)/10); 
+            }
+            else if(X<2300 && x>0)
+            {
+                System.out.println((t*8)/10);
             }
 
 
