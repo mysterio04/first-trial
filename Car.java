@@ -22,11 +22,11 @@ public class Car {
             t = GetSaleprice();
             if(X>2300)
             {
-               System.out.println((*9)/10); 
+               System.out.println((X*9)/10); 
             }
-            else if(X<2300 && x>0)
+            else if(X<2300 && X>0)
             {
-                System.out.println((t*8)/10);
+                System.out.println((X*8)/10);
             }
 
 
